@@ -270,8 +270,6 @@ void InputData (char *str)
 
 	inputData [strlen (inputData) -1] = '\0';
 
-	fflush (stdin);
-
 	strcpy (str, inputData);
 }
 
